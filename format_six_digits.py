@@ -13,3 +13,12 @@ def format_six_digits():
             print("Error: Number out of range. Try again.")
         except ValueError:
             print("Error: Invalid input. Enter a valid number.")
+    
+    #Manually adding leading zeros in front     
+    number_as_string = str(user_number_input)
+    while len(number_as_string) < 6:
+        number_as_string = "0" + number_as_string
+        
+    print("Output:", number_as_string)
+
+format_six_digits()
