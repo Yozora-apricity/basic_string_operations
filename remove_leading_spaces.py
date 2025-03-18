@@ -24,3 +24,11 @@ def remove_leading_spaces():
             space_count += 1
         else:
             break
+        
+    cleaned_name = ""
+    for position_in_string in range(space_count, len(name_input)):
+        cleaned_name += name_input[position_in_string]
+        
+    print("Output:", cleaned_name)
+    
+remove_leading_spaces()
