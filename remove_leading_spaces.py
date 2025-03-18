@@ -17,3 +17,10 @@ def remove_leading_spaces():
     if has_text:
         break
     print("Error: Name cannot be only spaces.")
+    
+    space_count = 0
+    for char in name_input:
+        if current_character == ' ':
+            space_count += 1
+        else:
+            break
