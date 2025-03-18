@@ -18,6 +18,7 @@ def remove_leading_spaces():
                 break
             print("Error: Name cannot be only spaces.")
     
+    # Count leading spaces
     space_count = 0
     for char in name_input:
         if current_character == ' ':
@@ -25,6 +26,7 @@ def remove_leading_spaces():
         else:
             break
         
+    # Remove leading spaces
     cleaned_name = ""
     for position_in_string in range(space_count, len(name_input)):
         cleaned_name += name_input[position_in_string]
