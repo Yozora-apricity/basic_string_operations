@@ -6,10 +6,9 @@
 def format_six_digits():
     while True:
         try:
-            user_number_input = input("Enter a number (0-1000): ")
-            converted_integer_number = int(user_number_input)
+            user_number_input = int(input("Enter a number (0-1000): "))
             
-            if 0 <= converted_integer_number <= 1000:
+            if 0 <= user_number_input <= 1000:
                 break
             print("Error: Number out of range. Try again.")
         except ValueError:
