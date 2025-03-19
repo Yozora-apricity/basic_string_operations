@@ -5,4 +5,4 @@
 
 fullname = input("Enter your full name: ")
 char_count = len(fullname)
-print(char_count)
+print("Output:", char_count)

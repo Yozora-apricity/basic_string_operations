@@ -5,4 +5,4 @@
 
 fullname = input("Enter your full name: ")
 reverse_casing_name = fullname.swapcase()
-print(reverse_casing_name)
+print("Output:", reverse_casing_name)
