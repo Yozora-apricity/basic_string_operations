@@ -5,4 +5,4 @@
 
 statement = input("Enter your full name: ")
 word_count = len(statement.split())
-print(word_count)
+print("Output: ", word_count)
